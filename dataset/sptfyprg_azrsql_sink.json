@@ -1,0 +1,12 @@
+{
+	"name": "sptfyprg_azrsql_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb_sptfyprg_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
