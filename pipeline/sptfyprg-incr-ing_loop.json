@@ -327,9 +327,9 @@
 					{
 						"activity": "loop_all_tables",
 						"dependencyConditions": [
-							"Skipped",
 							"Failed",
-							"Completed"
+							"Completed",
+							"Succeeded"
 						]
 					}
 				],
