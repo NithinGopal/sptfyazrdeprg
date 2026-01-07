@@ -328,7 +328,6 @@
 						"activity": "loop_all_tables",
 						"dependencyConditions": [
 							"Failed",
-							"Completed",
 							"Succeeded"
 						]
 					}
