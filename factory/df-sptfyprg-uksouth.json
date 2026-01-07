@@ -1,0 +1,9 @@
+{
+	"name": "df-sptfyprg-uksouth",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec671bcc-ddb8-41e7-987e-f16b7d4106af",
+		"tenantId": "e08dd380-461b-4108-8a8f-6b512920d570"
+	}
+}
