@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-sptfyprg-uksouth"
+		},
+		"adls_sptfyprg_ls_accountKey": {
+			"value": ""
+		},
+		"sqldb_sptfyprg_ls_password": {
+			"value": ""
+		},
+		"adls_sptfyprg_ls_properties_typeProperties_url": {
+			"value": "https://strgsptfyprguksouth.dfs.core.windows.net/"
+		},
+		"sqldb_sptfyprg_ls_properties_typeProperties_server": {
+			"value": "sqlsrvr-sptfyprg-uksouth.database.windows.net"
+		},
+		"sqldb_sptfyprg_ls_properties_typeProperties_database": {
+			"value": "sqldb-sptfyprg-uksouth"
+		},
+		"sqldb_sptfyprg_ls_properties_typeProperties_userName": {
+			"value": "adminnithin"
+		}
+	}
+}
