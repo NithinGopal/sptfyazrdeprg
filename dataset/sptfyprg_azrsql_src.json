@@ -1,5 +1,5 @@
 {
-	"name": "sptfyprg_azrsql_sink",
+	"name": "sptfyprg_azrsql_src",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "sqldb_sptfyprg_ls",
