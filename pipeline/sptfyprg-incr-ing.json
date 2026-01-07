@@ -32,9 +32,13 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "ParquetWriteSettings"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -54,7 +58,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "sptfyprg_azrsql_src",
+						"referenceName": "sptfyprg_adls_prqt_sink",
 						"type": "DatasetReference"
 					}
 				]
